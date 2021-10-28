@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.home{
+    /* background-image: url(/imgs/home_Image.jpg); */
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+}
