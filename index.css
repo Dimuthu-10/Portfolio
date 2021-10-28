@@ -93,6 +93,10 @@ a.navbar-brand{
     text-decoration: none;
 }
 
+.languages a:hover, a:focus{
+    color: snow;
+}
+
 .languages ul{
     display: flex;
 }
