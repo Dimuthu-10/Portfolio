@@ -17,7 +17,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class=" container-fluid">
                     <!-- logo and brand -->
-                    <a class="navbar-brand" href="#"> <img class="logo" src="imgs/logo.png" alt=""><i>Portfolio Site</i></a>
+                    <a class="navbar-brand" href="#"> <img class="logo" src="imgs/logo.png" alt=""><i>DL's Home</i></a>
                     <!-- responsive button -->
                     <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
         <!-- content -->
         <section class="introduction container" id="home">
             <div class="content">
-                <h1>Ema Wotson</h1>
+                <h1>Dimuthu Lakshan</h1>
                 <h3>I am a Web Developer</h3>
             </div>
         </section>
@@ -67,7 +67,7 @@
                     <div class="description">
                         <!-- Description -->
                         <h2>Who am I</h2>
-                        <h6>I'm Emma Smith, a visual UX/UI Designer and Web Developer</h6>
+                        <h6>I'm Dimuthu Lakshan, a visual UX/UI Designer and Web Developer</h6>
                         <div class="description">
                             <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                         </div>
@@ -76,19 +76,19 @@
                         <!-- information  -->
                         <div class="info" >
                             <div class="row">
-                                <div class="col-6">
-                                    <span>Name :</span> <p>Emma Smith</p>
+                                <div class="info-name1 col-6">
+                                    <span class="contact-des">Name :</span> <p>Dimuthu Lakshan</p>
                                 </div>
-                                <div class="col-6">
-                                    <span>Email :</span> <p>Emma@gmail.com</p>
+                                <div class="info-name1 col-6">
+                                    <span class="contact-des">Email :</span> <p>wddlakshan@std.appsc.sab.ac.lk </p>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-6">
-                                    <span>Age :</span> <p>21</p>
+                                <div class="info-name1 col-6">
+                                    <span class="contact-des">Age :</span> <p>23</p>
                                 </div>
-                                <div class="col-6">
-                                    <span>From :</span> <p>liverpool</p>
+                                <div class="info-name1 col-6">
+                                    <span class="contact-des">From :</span> <p>liverpool</p>
                                 </div>
                             </div>
                         </div>
@@ -274,13 +274,146 @@
 
         <!-- Portfolio Section-->
         <section class="portfolio" id="portfolio">
+            
+            <div class="home">
+                <a href="#"><i class="fas fa-home fa-lg"></i></a>
+            </div>
+            <h2 class="text-center">Showing some of my best works</h2>
+            <div class="full-img" id="imgBox">
+                <img src="./imgs/item-1.jpg" alt="item1" id="fullImg">
+                <Span onclick="CloseImg()">X</Span>
+            </div>
             <div class="image-gallery">
-                <img src="./imgs/item-1.jpg" alt="item1">
-                <img src="./imgs/item-2.jpg" alt="item2">
-                <img src="./imgs/item-3.jpg" alt="item3">
-                <img src="./imgs/item-4.jpg" alt="item4">
-                <img src="./imgs/item-5.jpg" alt="item5">
-                <img src="./imgs/item-6.jpg" alt="item6">
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="item1" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Tribute Page</a>
+                </div>
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="item2" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Random Quote machine</a>
+                </div>
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="item2" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">JavaScript Calculater</a>
+                </div>
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="item2" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Map Data Across the Globe</a>
+                </div>
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="item2" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Wikipedia Viewer</a>
+                </div>
+                <div class="tile">
+                    <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="item2" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Tic Tac Toe Game</a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/item-3.jpg" alt="item3" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Bag Mockup</a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/item-4.jpg" alt="item4" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Coffee Mockup</a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/item-5.jpg" alt="item5" onclick="OpenImg(this.src)">
+                    <a href="https://codepen.io/Dimuthu-10/full/rNOOQzq" target="_blank">Tshirt Mockup</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog Section -->
+        <section class="blog-sec" id="blog">
+            <div class="home">
+                <a href="#"><i class="fas fa-home fa-lg"></i></a>
+            </div>
+            <h2 class="text-center">Check out my latest blog posts</h2>
+            <div class="blog-grid">
+                <div class="tile">
+                    <img src="./imgs/blog 1.jpg" alt="blog1" onclick="OpenImg(this.src)">
+                    <a href="https://datamobteam.blogspot.com/2021/06/lets-hands-on-to-cloud-computing-i.html" target="_blank">Cloud Computing I
+                    <p>Now a days most of companies are migrating to use cloud computing concepts. Because people are getting familliar with doing things through online. Therefore campanies have to migrate to cloud computing to offer best services to their customers.... <span class="readmore">Read more</span> </p></a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/blog 2.png" alt="blog1" onclick="OpenImg(this.src)">
+                    <a href="https://datamobteam.blogspot.com/2021/06/lets-hands-on-to-cloud-computing-ii.html" target="_blank">Cloud Computing II
+                    <p>cloud computing has consumption-based model. There is no cost to amortize for the organization. Because, cloud service provider manages all the costs that you have purchased physical equipment. As a result, organization or business has to responsible for the computing resources that they have used.... <span class="readmore">Read more</span> </p></a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/blog 3.jpg" alt="blog1" onclick="OpenImg(this.src)">
+                    <a href="https://datamobteam.blogspot.com/2021/07/being-successful-with-being-self-taught.html" target="_blank">Being a Self Learner
+                    <p>As you already know self-learning is getting most popular method among all programmers and other people. But we know few people have got their results by self-learning. Because they all know the way that how to do self-learning effectively.... <span class="readmore">Read more</span> </p></a>
+                </div>
+                <div class="tile">
+                    <img src="./imgs/blog 3.jpg" alt="blog1" onclick="OpenImg(this.src)">
+                    <a href="https://datamobteam.blogspot.com/2021/07/start-your-career-path-with-successful.html" target="_blank">Career Development
+                    <p>Before moving on to the tips let's consider what is a project? and why a project is important? A project is a task series that should be completed to get the desired outcome. But in our case, we are expecting to learn something new and update our knowledge. That would be our main goal.... <span class="readmore">Read more</span> </p></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="home">
+                <a href="#"><i class="fas fa-home fa-lg"></i></a>
+            </div>
+            <div class="contact-info">
+                <div class="row">
+                    <div class="col-6 message">
+                        <h3>Message Me</h3>
+                        <form>
+                            <div class="contact-name row">
+                                <div class="name col-6">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="email col-6">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="contact-name row">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="row">
+                                <textarea name="message" placeholder="Type your message" id="" cols="30" rows="5" required></textarea>
+                            </div>
+                            <div >
+                                <button class="btn btn-success">Send me</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6 info">
+                        <h3>Contact-info</h3>
+                        <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                        <div>
+                            <div class="info-des">
+                                <i class="fas fa-file-signature fa-2x"></i>
+                                <div class="info-name col-6">
+                                    <p> <span class="contact-des">Name</span>  : <br> Dimuthu Lakshan</p>
+                                </div>
+                            </div>
+                            <div class="info-des">
+                                <i class="fas fa-map-marked-alt fa-2x"></i>
+                                <div class="info-name col-6">
+                                    <p> <span class="contact-des">Location</span>  : <br> Liverpool</p>
+                                </div>
+                            </div>
+                            <div class="info-des">
+                                <i class="fas fa-phone-alt fa-2x"></i>
+                                <div class="info-name col-6">
+                                    <p> <span class="contact-des">Call me</span>: <br> +947123456789</p>
+                                </div>
+                            </div>
+                            <div class="info-des">
+                                <i class="fas fa-paper-plane fa-2x"></i>
+                                <div class="info-name col-6">
+                                    <p> <span class="contact-des">Email me</span>: <br>wddlakshan@std.appsc.sab.ac.lk </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Footer -->
@@ -301,16 +434,16 @@
                         <ul >
                             <li><a class="btn btn-link " href="#twitter"><i class="fab fa-twitter fa-lg"></i> <span class="item"></span> </a></li>
                             <li><a class="btn btn-link " href="#facebook"><i class="fab fa-facebook-square fa-lg"></i></a></li>
-                            <li><a class="btn btn-link " href="#linkedin"><i class="fab fa-linkedin fa-lg"></i></a></li>
-                            <li><a class="btn btn-link " href="#github"><i class="fab fa-github fa-lg"></i></a></li>
-                            <li><a class="btn btn-link " href="#instagram"><i class="fab fa-instagram fa-lg"></i></a></li>
+                            <li><a class="btn btn-link " target="_blank" href="https://www.linkedin.com/in/dimuthu10/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                            <li><a class="btn btn-link " target="_blank" href="https://github.com/Dimuthu-10"><i class="fab fa-github fa-lg"></i></a></li>
+                            <li><a class="btn btn-link " target="_blank" href="https://draft.blogger.com/profile/00511224355981086011"><i class="fab fa-instagram fa-lg"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    
+    <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
