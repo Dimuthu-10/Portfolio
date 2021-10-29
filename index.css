@@ -126,7 +126,7 @@ a.navbar-brand{
     display: flex;
     justify-content: center;
     background-color: black;
-    /* opacity: 0.9; */
+    opacity: 0.95;
 }
 
 .btn a{
@@ -138,8 +138,9 @@ a.navbar-brand{
     border-radius: 20px !important;
 }
 
-.home a{
-    padding: 20px;
+.home {
+   display: flex;
+   justify-content: flex-end;
 }
 
 .home .fa-home:hover{
@@ -147,7 +148,9 @@ a.navbar-brand{
 }
 
 .home .fa-home {
-    padding: 50px 30px 50px 70px;
+    /* padding: 50px 30px 50px 70px; */
+    padding-top: 50px;
+    padding-right: 50px;
     color: snow !important;
 }
 .service-grid{
@@ -220,6 +223,78 @@ h2{
     margin-bottom: 60px;
 }
 
+.resume{
+    background-image: url(imgs/resume.jpg);
+    color: white;
+}
+
+.item-arrow::before{
+    width: 16px;
+    height: 16px;
+    background-color: #009e66;
+}
+
+.education{
+    padding: 50px;
+}
+
+.degree, .experience{
+    background-color: rgba(87, 87, 87,0.5);
+    border-bottom: 0.8px solid white;
+    border-left: 2px solid transparent;
+    padding: 25px;
+    padding-left: 40px;
+    border-left-color: #009e66;
+}
+
+.degree h6, 
+.experience h6,
+.degree p,
+.experience p{
+    color: rgb(180, 180, 180);
+}
+
+.skill{
+    padding: 20px !important;
+    margin-bottom: 60px !important;
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillset{
+    padding: 20px 15px;
+}
+
+progress{
+    width: -webkit-fill-available;
+    background-color: #0142a3;
+    height: 9px;
+    border-radius: 2px !important;
+}
+
+.image-gallery{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    max-width: 1280px;
+    width: 100%;
+    margin: 100px auto;
+    margin-bottom: 60px;
+}
+
+.image-gallery img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-gallery img:hover{
+    transform: scale(0.9) rotate(-8deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 7px rgba(68, 77, 136, 0.2);
+}
 
 /* Footer*/
 .last{
