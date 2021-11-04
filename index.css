@@ -8,8 +8,9 @@ body{
 }
 
 .vertical_boxes{
+    width: fit-content;
+    height: 145vh !important;
     display: grid;
-    height: 100vh;
     max-height: 100%;
     background-image: url(imgs/home_Image.jpg);
     background-color: rgba(0, 0, 0, 0.2) !important;
@@ -17,8 +18,11 @@ body{
     background-size:cover;
     align-items: stretch;
     background-blend-mode: overlay;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    z-index: 0;
 }
+
+
 
 .bg-dark{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), #1a1a1a 50%); */
@@ -126,7 +130,7 @@ a.navbar-brand{
     display: flex;
     justify-content: center;
     background-color: black;
-    opacity: 0.95;
+    /* opacity: 0.95; */
 }
 
 .btn a{
@@ -401,7 +405,7 @@ progress{
   }
 
   .contact{
-      background-image: url(./imgs/contact.jpg);
+      background-image: url(imgs/contact.jpg);
       background-color: rgba(0, 0, 0, 0.6);
       background-blend-mode: overlay;
       color: white;
@@ -547,5 +551,14 @@ progress{
     .vertical_boxes{
         height: 105.5vh;
         width : 104.8%;
+    }
+} */
+
+/* @media  screen and (max-width:866px) {
+    .image-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin: 10px;
     }
 } */
